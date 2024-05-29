@@ -1,0 +1,51 @@
+
+export default [
+  {
+    id: 1,
+    message: "Hello!",
+    timestamp: "12/21/2021, 4:33:21 PM",
+    addressFrom: "0xCF8e569A97C423952DdFf902375C7C76549A6A90",
+    amount: "0.01",
+    addressTo: "0x8aa395Ab97837576aF9cd6946C79024ef1acfdbE",
+  },
+  {
+    id: 2,
+    message: "This is a gift for you.",
+    timestamp: "12/21/2021, 4:33:21 PM",
+    addressFrom: "0xCF8e569A97C423952DdFf902375C7C76549A6A90",
+    amount: 50,
+    addressTo: "0x8aa395Ab97837576aF9cd6946C79024ef1acfdbE",
+  },
+  {
+    id: 3,
+    message: "The 30.5 ETH you gave me.",
+    timestamp: "12/21/2021, 4:33:21 PM",
+    addressFrom: "0xCF8e569A97C423952DdFf902375C7C76549A6A90",
+    amount: 30.5,
+    addressTo: "0x8aa395Ab97837576aF9cd6946C79024ef1acfdbE",
+  },
+  {
+    id: 4,
+    message: "This is your 10 ETHs, Jonathan.",
+    timestamp: "12/21/2021, 4:33:21 PM",
+    addressFrom: "0xCF8e569A97C423952DdFf902375C7C76549A6A90",
+    amount: 10,
+    addressTo: "0x8aa395Ab97837576aF9cd6946C79024ef1acfdbE",
+  },
+  {
+    id: 5,
+    message: "This is your salary amount.",
+    timestamp: "12/21/2021, 4:33:21 PM",
+    addressFrom: "0xCF8e569A97C423952DdFf902375C7C76549A6A90",
+    amount: 70,
+    addressTo: "0x8aa395Ab97837576aF9cd6946C79024ef1acfdbE",
+  },
+  {
+    id: 6,
+    message: "Get well soon.",
+    timestamp: "12/21/2021, 4:33:21 PM",
+    addressFrom: "0xCF8e569A97C423952DdFf902375C7C76549A6A90",
+    amount: 100,
+    addressTo: "0x8aa395Ab97837576aF9cd6946C79024ef1acfdbE",
+  },
+];
