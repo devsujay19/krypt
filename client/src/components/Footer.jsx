@@ -18,7 +18,7 @@ const Footer = () => (
 
     <div className="flex justify-center items-center flex-col mt-5">
       <p className="text-white text-sm text-center">Come, join us and hear for the unexpected miracle.</p>
-      <p className="text-white text-sm text-center font-medium mt-2">info@krypto.com</p>
+      <p className="text-white text-sm text-center font-medium mt-2">info@krypt-com.vercel.app</p>
     </div>
 
     <div className="sm:w-[90%] w-full h-[0.25px] bg-gray-400 mt-5 " />
@@ -27,7 +27,9 @@ const Footer = () => (
       <p onClick={() => {
         window.open("https://github.com/devsujay19", "_blank")
       }} className="text-white text-left text-xs cursor-pointer">@devsujay19</p>
-      <p className="text-white text-right text-xs">Licensed under MIT.</p>
+      <p onClick={() => {
+        window.open("https://github.com/devsujay19/krypt/blob/main/LICENSE", "_blank")
+      }} className="text-white text-right text-xs cursor-pointer">Licensed under MIT.</p>
     </div>
   </div>
 );

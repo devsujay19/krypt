@@ -41,7 +41,7 @@ const Welcome = () => {
             Send Crypto <br /> across the world
           </h1>
           <p className="text-left mt-5 text-white font-light md:w-9/12 w-11/12 text-base">
-            Explore the Web 3.0 Infrastructure. Buy, sell, earn, send, receive and gift cryptocurrencies easily on Krypto.
+            Explore the Web 3.0 Infrastructure. Buy, sell, earn, send, receive and gift cryptocurrencies easily on Krypt.
           </p>
           {!currentAccount && (
             <button
