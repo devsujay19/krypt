@@ -55,7 +55,7 @@ export const TransactionsProvider = ({ children }) => {
 
   const checkIfWalletIsConnect = async () => {
     try {
-      if (!ethereum) return alert("Please install MetaMask.");
+      if (!ethereum) return alert("Please install a cryptocurrency wallet.");
 
       const accounts = await ethereum.request({ method: "eth_accounts" });
 
@@ -88,7 +88,7 @@ export const TransactionsProvider = ({ children }) => {
 
   const connectWallet = async () => {
     try {
-      if (!ethereum) return alert("Please install MetaMask.");
+      if (!ethereum) return alert("Please install a cryptocurrency wallet.");
 
       const accounts = await ethereum.request({ method: "eth_requestAccounts", });
 
